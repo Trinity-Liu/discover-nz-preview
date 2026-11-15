@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Discover NZ · 奥克兰活动</title>
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./preview.mjs"></script>
+</head>
+<body>
+  <header>
+    <div class="nav shell">
+      <a class="brand" href="./">Discover <span>NZ</span></a>
+      <nav aria-label="主导航">
+        <a href="#activities">发现活动</a>
+        <a href="#my-list">我的列表</a>
+      </nav>
+    </div>
+  </header>
+  <main class="shell">
+    <section class="hero">
+      <p class="eyebrow">Tāmaki Makaurau · Auckland</p>
+      <h1>发现奥克兰活动</h1>
+      <p>初运行版。以下活动为虚构样例，仅供测试。</p>
+      <a class="button" href="#activities">查看活动</a>
+    </section>
+    <section id="activities" class="listing">
+      <h2>发现活动</h2>
+      <div id="catalog" class="cards"></div>
+    </section>
+    <section id="my-list" class="listing">
+      <h2>我的列表</h2>
+      <p>收藏保存在当前浏览器。</p>
+      <div id="saved" class="cards"></div>
+    </section>
+    <p id="status" role="status"></p>
+    <noscript>请启用 JavaScript 以使用收藏功能。</noscript>
+  </main>
+</body>
+</html>
